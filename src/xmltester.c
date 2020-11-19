@@ -1,3 +1,5 @@
+#include "xmltester.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <libxml/parser.h>
@@ -5,7 +7,6 @@
 #include <libxml/xmlstring.h>
 #include <string.h>
 
-#include "xmltester.h"
 
 typedef struct _test_definition test_definition;
 struct _test_definition
