@@ -36,4 +36,6 @@ int xmlHasChildElementNodes(const xmlNode *node);
 
 int int_from_xml(const xmlNode *node, int *n);
 
+int intarr_from_xml(const xmlNode *node, int **arr, int *len);
+
 #endif
